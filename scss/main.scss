@@ -1,0 +1,30 @@
+//nesting o anidamiento
+
+
+header{
+    background-color: $color-pricipal;
+    width: 300px;
+    box-shadow: 1px black;
+    .titulo-pricipal{
+        color: rgb(211, 11, 11);
+        font-size: 20px;
+    }
+        
+        
+    nav {
+        ul {
+            display: flex;
+            justify-content: center;
+            li {
+                background-color: aqua;
+                &:hover{
+                    background-color: bisque;
+                }
+            }
+        }
+    }   
+}
+//variables
+$color-pricipal: #588
+
+$ancho-principal: 20px

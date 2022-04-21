@@ -1,0 +1,12 @@
+header {
+  background-color: blue;
+  width: 300px;
+  box-shadow: 1px black; }
+  header .titulo-pricipal {
+    color: #d30b0b;
+    font-size: 20px; }
+  header nav ul {
+    display: flex;
+    justify-content: center; }
+    header nav ul li {
+      background-color: aqua; }
